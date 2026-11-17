@@ -1,2 +1,2 @@
-# vibe_coding_2026
+# HUCE
 Vibe Coding 2026
