@@ -1,0 +1,19 @@
+MINTCLUB - HUONG DAN CHAY NHANH
+============================
+1) Giai nen file ZIP.
+2) Ubuntu/macOS: chay ./run.sh (hoac python3 -m http.server 8600 --bind 127.0.0.1).
+   Windows: chay run.bat (can co Python 3).
+3) Mo Chrome/Edge: http://localhost:8600
+4) Nhan Dang ky moi, hoac vao Che do Quay > Nap du lieu mau.
+5) De thu import: chon tests/DU_LIEU_GIA_LAP_CHI_DE_TEST.xlsx.
+   Day la du lieu GIA LAP, KHONG PHAI file BTC.
+6) Test KT-004: nap file gia lap, vao Quay, nhap KT-004 va giao dich GD-001,
+   so tien 100000; diem cong 10. Nhap lai GD-001 se bi tu choi.
+7) Kiem tra mobile/offline/QR theo README.md.
+8) Chay kiem thu: node --test tests/*.test.mjs (Node 18+).
+
+QUAN TRONG:
+- Khong can MySQL, Redis, FastAPI hay LLM API.
+- QR camera can HTTPS/localhost va trinh duyet co BarcodeDetector; luon co nhap ma tay.
+- Du lieu localStorage KHONG dong bo giua cac thiet bi.
+- Khong dung du an nay de quan ly diem thanh toan tien that tren nhieu quay.
